@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+
+
+<ol>
+    
+
+    <% info.forEach(function(sal) { %>
+        <li><font size='12px' color= '#3cb371'</font><%= sal.title %> - <font size='16px' color= '#4A4A4A.'</font><%= sal.body %></li>
+    <% }); %>
+  
+    </ol>
+    
+
+   
+    
+
+
+
+
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>
+
+
+
